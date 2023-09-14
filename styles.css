@@ -1,6 +1,38 @@
-:root { --cor-de-fundo: #EBECEE;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(header/header.css);
 
-body { background-color: var(--cor-de-fundo);}
+:root {--cor-de-fundo: #EBECEE;}
 
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;;
+}
 
-h1 {background-color: white;}
+.pesquisa {
+    width: 1920px;
+    height: 200px;
+    background-image: linear-gradient(to right, #002F52 , #326589);
+    color: white;
+}
+
+.pesquisa h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pesquisa p {
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.conteiner a {
+    padding: 10px;
+}
+
+.cabecalho a {
+    padding: 10px;
+}
+
